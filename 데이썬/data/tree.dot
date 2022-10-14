@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="concave points_mean <= 0.051\nsamples = 426\nvalue = [268, 158]\nclass = 악성", fillcolor="#f4cbae"] ;
+1 [label="radius_worst <= 16.83\nsamples = 267\nvalue = [251, 16]\nclass = 악성", fillcolor="#e78946"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="area_se <= 34.405\nsamples = 249\nvalue = [244, 5]\nclass = 악성", fillcolor="#e6843d"] ;
+1 -> 2 ;
+3 [label="texture_worst <= 30.145\nsamples = 235\nvalue = [233, 2]\nclass = 악성", fillcolor="#e5823b"] ;
+2 -> 3 ;
+4 [label="samples = 205\nvalue = [205, 0]\nclass = 악성", fillcolor="#e58139"] ;
+3 -> 4 ;
+5 [label="texture_mean <= 24.185\nsamples = 30\nvalue = [28, 2]\nclass = 악성", fillcolor="#e78a47"] ;
+3 -> 5 ;
+6 [label="samples = 12\nvalue = [10, 2]\nclass = 악성", fillcolor="#ea9a61"] ;
+5 -> 6 ;
+7 [label="samples = 18\nvalue = [18, 0]\nclass = 악성", fillcolor="#e58139"] ;
+5 -> 7 ;
+8 [label="samples = 14\nvalue = [11, 3]\nclass = 악성", fillcolor="#eca36f"] ;
+2 -> 8 ;
+9 [label="samples = 18\nvalue = [7, 11]\nclass = 양성", fillcolor="#b7dbf6"] ;
+1 -> 9 ;
+10 [label="texture_worst <= 20.405\nsamples = 159\nvalue = [17, 142]\nclass = 양성", fillcolor="#51a9e8"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+11 [label="samples = 14\nvalue = [10, 4]\nclass = 악성", fillcolor="#efb388"] ;
+10 -> 11 ;
+12 [label="area_worst <= 718.65\nsamples = 145\nvalue = [7, 138]\nclass = 양성", fillcolor="#43a2e6"] ;
+10 -> 12 ;
+13 [label="samples = 13\nvalue = [7, 6]\nclass = 악성", fillcolor="#fbede3"] ;
+12 -> 13 ;
+14 [label="samples = 132\nvalue = [0, 132]\nclass = 양성", fillcolor="#399de5"] ;
+12 -> 14 ;
+}
