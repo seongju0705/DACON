@@ -1,0 +1,15 @@
+﻿Column명,설명
+ID,샘플 ID
+quarter,"한 달을 4개의 기간으로 분할한 단위 (예시: 1주차, 2주차, 3주차 ..)"
+department,인스턴스 관련 부서
+day,요일
+targeted_productivity,설정한 목표 생산성
+smv,작업에 할당된 시간 (분)
+wip,작업 진행 중인 품목 수 (제품에 대한 미완성 품목 수 포함)
+over_time,각 팀별 초과 근무 정도 (0~1)
+incentive,재정적 인센티브 양 (BDT 단위)
+idle_time,생산이 중단된 시간
+idle_men,생산 중단으로 유휴인원 수
+no_of_style_change,특정 제품의 스타일 변경 횟수
+no_of_workers,팀별 작업자 수
+actual_productivity,생산량 (target)
